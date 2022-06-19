@@ -1,0 +1,22 @@
+POST http://localhost:3001/users/
+Content-Type: application/json
+
+{
+   "firstname": "mo" ,
+   "lastname": "a",
+   "email": "iipnaw@btest.fr",
+   "phone": "0123456789",
+   "password": "1234naw:Khh",
+   "patient": true
+
+}
+#####
+POST http://localhost:3001/users/auth
+Content-Type: application/json
+
+{
+        "email":"aaa",
+        "password":""
+}
+#####
+GET http://localhost:3001/users/
